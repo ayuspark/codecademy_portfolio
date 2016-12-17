@@ -1,0 +1,141 @@
+/* {
+  box-sizing: : border-box;
+  border: 1px solid red;
+}
+*/
+.hero {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  min-height: 800px;
+  background-size: cover;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.hero > h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 40px; }
+
+.landscape.hero {
+  color: white; }
+
+/* INTRO */
+#intro {
+  background-image: url(img/gallery/12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#intro h1 {
+  color: white;
+  text-shadow: 0px 1px 2px;
+  line-height: 55px;
+  font-size: 72px;
+  margin-bottom: 0;
+  font-weight: 300; }
+
+#intro h5 {
+  text-shadow: 0px 5px 5px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 300; }
+
+/* button */
+.cta {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  line-height: 50px;
+  padding: 0;
+  width: 180px;
+  border-radius: 4px;
+  border-width: 0;
+  cursor: pointer; }
+
+button:hover {
+  background-color: #00CFFF; }
+
+/* About */
+#about {
+  min-height: 0; }
+
+.left-col {
+  color: #00E2AC;
+  padding: 20px;
+  text-align: right;
+  text-transform: uppercase; }
+
+.left-col h2 {
+  font-size: 60px;
+  line-height: 55px;
+  font-weight: 700; }
+
+.right-col {
+  text-align: left;
+  padding: 20px; }
+
+.right-col h5 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px; }
+
+/* Gallery */
+#gallery {
+  background-color: #EEFDF9;
+  padding: 0;
+  margin: 0; }
+
+#gallery .col-md-4 {
+  overflow: hidden;
+  padding: 0 5px 10px 5px; }
+
+.col-md-4 img {
+  width: 100%;
+  max-width: 390px;
+  max-height: 380px; }
+
+/* cactus */
+#cactus {
+  padding: 0; }
+
+/* contact */
+#contact p {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  max-width: 740px; }
+
+#social {
+  margin: 10px auto; }
+
+#social img {
+  height: 25px;
+  margin: auto 20px; }
+
+#contact img:hover {
+  opacity: 0.5; }
+
+/* footer */
+#footer {
+  position: relative; }
+
+.footer-item, .copyright {
+  display: inline-block; }
+
+.footer-item {
+  margin-left: 10px;
+  width: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
+.copyright {
+  text-align: right;
+  position: absolute;
+  right: 5px;
+  bottom: 8px; }
+
+/*# sourceMappingURL=main.css.map */
